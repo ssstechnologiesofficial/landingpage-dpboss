@@ -78,8 +78,11 @@ export default function AppHeader({
         <Button 
           className="flex-1 min-w-[120px] bg-[#01875f] hover:bg-[#016d4d] text-white"
           data-testid="button-install"
+          asChild
         >
-          Install
+          <a href="/dpboss.apk" download="DPBOSS.apk">
+            Install
+          </a>
         </Button>
         <Button 
           variant="outline" 
