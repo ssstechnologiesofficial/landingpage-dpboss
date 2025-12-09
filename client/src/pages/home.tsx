@@ -18,13 +18,6 @@ const appData = {
   hasAds: true,
 };
 
-const screenshots = [
-  "screenshot1.png",
-  "screenshot2.png",
-  "screenshot3.png",
-  "screenshot4.png",
-  "screenshot5.png",
-];
 
 const description = `For the Fastest and Accurate results of markets and bazar Download Our App
 
@@ -103,7 +96,7 @@ export default function Home() {
 
         <Separator />
 
-        <ScreenshotGallery screenshots={screenshots} />
+        <ScreenshotGallery />
 
         <Separator />
 
