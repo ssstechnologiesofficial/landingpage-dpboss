@@ -133,9 +133,9 @@ export default function Home() {
             data-testid="link-made-with"
           >
             <div className="w-6 h-6 rounded-full bg-muted flex items-center justify-center">
-              <span className="text-xs">E</span>
+              <span className="text-xs">SSS</span>
             </div>
-            Made with Emergent
+            Made by SSS Technologies
           </a>
         </footer>
       </main>
