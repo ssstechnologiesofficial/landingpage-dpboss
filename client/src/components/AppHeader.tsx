@@ -1,6 +1,7 @@
 import { Star, Download, Share2, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import appLogo from "@assets/logo_1765263687347.png";
 
 interface AppHeaderProps {
   title: string;
@@ -24,8 +25,8 @@ export default function AppHeader({
   return (
     <div className="flex flex-col gap-6">
       <div className="flex items-start gap-4 md:gap-6">
-        <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center shadow-md shrink-0">
-          <span className="text-white text-2xl font-bold">DP</span>
+        <div className="w-20 h-20 rounded-2xl overflow-hidden shadow-md shrink-0">
+          <img src={appLogo} alt="DP Boss Trusts" className="w-full h-full object-cover" />
         </div>
         
         <div className="flex-1 min-w-0">
